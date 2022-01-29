@@ -1,0 +1,98 @@
+@import "null.css";
+/* ============================================================================================================================= */
+
+h1 {
+color: saddlebrown;
+}
+h3{
+	color: rgb(130, 117, 0);
+}
+div {
+	color: hotpink;
+}
+p {
+	color: slateblue;
+}
+#description {
+	color: greenyellow;
+}
+
+
+.origin-p1 {
+	color: rgb(138, 2, 192);
+
+}
+.origin-p2 {
+	color: rgb(134, 110, 4);
+}
+.description-p1 {
+	color: rgb(44, 43, 43);
+}
+
+
+p.p3 {
+	color: red;
+}
+
+/* Все объекты c классом text */
+.p4 {
+	color: royalblue;
+}
+
+.description-p1.blue-1 {
+	color: rgb(11, 241, 22);
+}
+.blue-1{
+	color: blue;
+}
+
+p span {
+	color: rgb(43, 174, 226);
+}
+span {
+	color: chocolate;
+}
+
+.p5 li{
+	color: rgb(228, 105, 96);
+} 
+
+nav ul{
+	color: rosybrown;
+}
+
+ol li{
+	color: skyblue;
+}
+
+
+/* Перечисление */
+.red,
+.red-or-blue{
+	color: rgb(255, 0, 170);
+}
+
+/* Используем селектор атрибута */
+[class*="-text"] {
+	color: rgb(85, 99, 105);
+}
+
+/* Только первый уровень вложенности */
+
+.main>p{
+	color: fuchsia;
+}
+
+/* Обращаемся только к первому 
+	следующему объекту того же уровня 
+*/
+.population>p+p{
+	color: gold;
+}
+
+
+/* Обращаемся ко всем следующим объектам того же уровня */
+.more>p~p{
+	color: green;
+}
+
